@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs height="300" title="BlogSocial">
+ </ModulePrefs>
+ <Content type="html">
+   <![CDATA[
+	   function goToCanvas()
+   {
+        document.getElementById('loadingImage').style.visibility='visible';
+   }
+  </script> 
+    <a id="canvas-link" href="javascript:void(0);" onclick="goToCanvas();">Create Banner</a>
+   <img id="loadingImage" src="http://blogs.which.co.uk/technology/wp-content/uploads/2011/09/Amazon-logo.jpg" style="visibility:hidden"/>
+   ]]>
+
+  </Content>
+</Module>
