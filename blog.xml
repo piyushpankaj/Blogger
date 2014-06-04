@@ -6,7 +6,10 @@
    <![CDATA[
 	   function goToCanvas()
    {
-        document.getElementById('loadingImage').style.visibility='visible';
+	if(document.getElementById('loadingImage').style.visibility=='visible')
+        	document.getElementById('loadingImage').style.visibility='hidden';
+   	else
+		document.getElementById('loadingImage').style.visibility='visible'
    }
   </script> 
     <a id="canvas-link" href="javascript:void(0);" onclick="goToCanvas();">Create Banner</a>
