@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
-<ModulePrefs height="300" title="BlogSocial">
+<ModulePrefs height= '300' title="BlogSocial">
  </ModulePrefs>
- <Content type="html">
+ <Content type="html" view="canvas">
    <![CDATA[
 	<script>
 		function goToCanvas()
